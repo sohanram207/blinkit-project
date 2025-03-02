@@ -1,0 +1,90 @@
+/* Responsive CSS for Mobile */
+@media only screen and (min-width:200px) and (max-width:575px){
+
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        gap: 15px;
+    }
+    .headerLeft{
+        justify-content: center;
+    }
+
+    .logo{
+        padding: 10px;
+    }
+
+    .headerAddress{
+        padding: 10px;
+    }
+
+    .headerAddress p{
+        font-size: 12px;
+    }
+    .headerAddress h3{
+        font-size: 15px;
+    }
+
+    .searchBox button{
+        padding: 10px;
+    }
+
+    .headerBtn{
+       position: fixed;
+       width: 100%;
+       background-color: white;
+       margin-right: 0px;
+       bottom: 0;
+       justify-content: center;
+    }
+    .banner-Section{
+        display: none;
+    }
+
+    .order-banner{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .categoryItems{
+        flex-basis: 25%;
+    }
+
+    .productRow {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0px 10px;
+    }
+
+    .productItems{
+        flex-basis: calc(50% - 10px);
+        box-sizing: border-box;
+    }
+
+    footer{
+        padding-top: 0px;
+    }
+
+    .footer-Row1{
+        padding: 10px;
+         flex-direction: column;
+
+
+    }
+
+    .FooterLinks__List li{
+        flex-basis: 48%;
+    }
+   .footer-mid-Row3{
+    padding: 0px 10px;
+   }
+  
+    .footer-mid-Row2{
+        gap: 20px;
+        flex-direction: column;
+    }
+
+}
